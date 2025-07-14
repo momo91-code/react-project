@@ -1,9 +1,11 @@
-import './Contacts.css';
+import styleContacts from "./Contacts.module.css"
 
+import { Link } from 'react-router-dom';
 function Contacts() {
   return(
    <div className="contacts-container">
-      <h1>Benvenuto in contacts!</h1>
+     <Link to="/movies">Movies</Link> | <Link to="/">Home</Link>  
+      <h1 className={styleContacts.titoloMovies}>Benvenuto in contacts!</h1>
     </div>
   );
 }

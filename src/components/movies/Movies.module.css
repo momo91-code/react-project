@@ -1,5 +1,7 @@
 .movies-container{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:red;
     cursor:default;
+}
+.titoloMovies{
+    color: aqua;
 }
