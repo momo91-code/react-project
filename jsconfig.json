@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",             // ti permette import da "components/Header" invece di "./components/Header"
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["src"]
+}
